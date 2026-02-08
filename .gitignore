@@ -1,0 +1,18 @@
+﻿# Gradle / build outputs
+.gradle/
+build/
+out/
+bin/
+run/
+logs/
+_jar_extract/
+tmp/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

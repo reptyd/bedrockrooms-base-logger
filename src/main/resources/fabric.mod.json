@@ -1,0 +1,26 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "bedrockrooms-base-logger",
+    "version":  "${version}",
+    "name":  "BedrockRooms Base Logger",
+    "description":  "Logs BedrockRooms bases to per-server profiles.",
+    "authors":  [
+                    "Tuma",
+                    "Tymamatyty"
+                ],
+    "license":  "All Rights Reserved",
+    "environment":  "client",
+    "entrypoints":  {
+                        "client":  [
+                                       "com.tuma.brdatalogger.BRDataLoggerClient"
+                                   ]
+                    },
+    "mixins":  [
+                   "brdatalogger.mixins.json"
+               ],
+    "depends":  {
+                    "fabricloader":  "\u003e=0.15.11",
+                    "fabric":  "*",
+                    "minecraft":  "1.20.1"
+                }
+}
